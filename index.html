@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="kalkulator">
+        <div class="container">
+            <form action="" name="form">
+                <input type="text" class="view" name="view" />
+            </form>
+            <table>
+                <tr>
+                    <td><button type="button" class="btn" onclick="insertData(9)">9</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(8)">8</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(7)">7</button></td>
+                    <td><button type="button" class="btn" onclick="insertData('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn" onclick="insertData(6)">6</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(5)">5</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(4)">4</button></td>
+                    <td><button type="button" class="btn" onclick="insertData('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn" onclick="insertData(3)">3</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(2)">2</button></td>
+                    <td><button type="button" class="btn" onclick="insertData(1)">1</button></td>
+                    <td><button type="button" class="btn" onclick="insertData('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn" onclick="insertData(0)">0</button></td>
+                    <td><button type="button" class="btn" onclick="insertData('*')">*</button></td>
+                    <td><button type="button" class="btn" onclick="clearData()">c</button></td>
+                    <td><button type="button" class="btn" onclick="aqual()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><button type="button" class="btn" onclick="deleteData()">del</button></td>
+                   
+                </tr>
+            </table>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
